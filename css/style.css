@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Product Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Italic'), url('../google-sans-cufonfonts-webfont/ProductSans-Italic.woff') format('woff');
+    }
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color:#eeeeee;
+    font-family: 'Montserrat', sans-serif;
+}
+header
+{
+    background-color:#82c2c9;
+}
+.nav-h
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* font-family: 'Open Sans', sans-serif; */
+    
+    /* font-family: 'Product Sans Italic'; */
+    box-shadow: 5px 10px 15px #635e5e;
+    font-size: 20px;
+}
+header
+{
+    box-shadow: 5px 10px 15px #635e5e;
+}
+.brand-title 
+{
+   font-size: 30px;
+   margin-right: auto;
+   margin-left:15px;
+   padding:10px;
+   transition: all 0.7s ease 0.1s;
+   color:#eeeeee;
+}
+.title-e
+{
+   padding:15px;
+    font-size: 20px;
+    margin-right:20px;
+    transition: all 0.7s ease 0.1s;
+    text-decoration: none;
+    color:rgb(49, 47, 47);
+}
+.brand-title:hover 
+{
+   font-size: 30px;
+   margin-right: auto;
+   margin-left:15px;
+   padding:10px;
+   color:rgb(49, 47, 47);
+
+}
+.title-e:hover
+{
+   padding:15px;
+    font-size: 20px;
+    margin-right:20px;
+    color:#eeeeee;
+}
+
+.content
+{
+    margin-top:400px;
+    background-color:rgb(49, 47, 47);
+    padding:15px;
+    
+}
+.col1
+{
+    color:#eeeeee;
+    font-size: 30px;
+    text-align: center;
+    
+}.col1:first-child
+{
+    border-right: 2px solid #eeeeee;
+}
+
+.btn
+{
+    margin-top:10px;
+    padding:10px;
+    border:2px solid black;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.btn:hover
+{
+    margin-top:10px;
+    padding:10px;
+    border-radius: 3px;
+    border:2px solid rgb(95, 154, 161);
+    color:rgb(83, 130, 145);
+    font-size: 18px;
+}
+.link-h
+{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.content2
+{
+    background-color:rgb(49, 47, 47);
+}
+#btn2
+{
+    margin:40px 0;
+    padding:15px;
+    margin-left: 48%;
+    border:2px solid black;
+    font-size: 18px;
+    
+}
+@media (max-width:768px)
+{
+.col1
+{
+    color:#eeeeee;
+    font-size: 21px;
+
+}
+}   
